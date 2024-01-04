@@ -1,9 +1,9 @@
 class Trip{
-  String? title;
-  List<String>? photos;
-  String? description;
-  DateTime? date;
-  String? location;
+  final String? title;
+  final List<String>? photos;
+  final String? description;
+  final DateTime? date;
+  final String? location;
 
-  Trip.name(this.title, this.photos, this.description, this.date, this.location);
+  Trip({required this.title, required this.photos, required this.description, required this.date, required this.location});
 }
